@@ -1,12 +1,21 @@
 body{
     margin: 0;
-    background: black;
+    background: #007690;
     font-family: monospace;
     
 }
 
 .header{
-    border-bottom: 3px solid rgb(3, 209, 209);
+    padding-top: 10px;
+    border-bottom: 3px solid #004860;
+    background-color: #FFFFFF;
+}
+
+.header .container img{
+    height: 60px;
+}
+.header .container .logo{
+    display: flex;
 }
 
 .container{
@@ -21,17 +30,17 @@ body{
 
 .header ul #aqui{
     font-weight: 800;
-    color: orange;
+    color: #012637;
 }
 
 .titulo{
-    color: rgb(3, 209, 209);
+    color: #004860;
     width: fit-content;
     font-weight: 500;
 }
 
 .navBar{
-    color: yellow;
+    color: #00B1CB;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -41,7 +50,6 @@ body{
 }
 
 .banner{
-    background-image: url("Aula_HTML_CSS/imgs/bg-jelly-fish-para-home.png");
     height: 500px;
     color: white;
     display: flex;
@@ -51,7 +59,59 @@ body{
 }
 .banner .container{
     font-size: 36px;
-    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.banner .container .ad {
+    height: 400px;
+    width: 400px;
+    font-size: 20px;
+    background-color: #00B1CB;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.banner .container .ad button{
+
+    height: 30px;
+    width: fit-content;
+    border: 0;
+    background: #007690;
+    color: white;
+    font-family: monospace;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.banner .container .ad #divTel{
+    border: #004860 1px solid;
+    border-radius: 7px;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner .container .ad #divTel input{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    width: 150px;
+
+}
+
+.banner .container .msg {
+    height: 400px;
+    width: 400px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
 }
 .banner .container p{
     width: 20%;
@@ -79,7 +139,7 @@ body{
 }
 
 .footer{
-    background-color: rgb(3, 209, 209);
+    background-color: #00B1CB;
     height: 80px;
     color: white;
     display: flex;
@@ -92,7 +152,7 @@ body{
 
 a{
     text-decoration: none;
-    color: yellow;
+    color: #00B1CB;
 }
 
 .banner .container .card{
